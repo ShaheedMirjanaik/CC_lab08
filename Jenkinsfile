@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     echo 'Running tests...'
-                    sh './wrong_executable' // Intentional error: Wrong executable name
+                    sh './YOUR_PES2UG22CS515' // Running the compiled C++ executable
                 }
             }
         }
